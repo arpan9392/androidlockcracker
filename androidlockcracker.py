@@ -42,7 +42,7 @@ class PasswordGestureGenerate(object):
     
     def generate_self_hash(self):
         if self.gesture == None:
-            print "Bad gesture string"
+            print ("Bad gesture string")
             return False
         return self.generate_hash(self.generate_gesture_string(self.gesture))
     
